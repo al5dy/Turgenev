@@ -17,5 +17,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  quality-gate:
+  checks:
+    name: Run quality checks
     uses: ./.github/workflows/quality-gate.yml
+
+  quality-gate:
+    name: Quality Gate
+    needs:
+      - checks
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify quality gate
+        shell: bash
+        run: |
+          test "${{ needs.checks.result }}" = "success"
