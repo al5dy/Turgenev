@@ -90,7 +90,7 @@
     "jsdom": "26.1.0",
     "parcel": "^2.16.4",
     "sass": "^1.105.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "scripts": {
     "clean": "rm -rf assets/*.js assets/*.css assets/images .parcel-cache",
