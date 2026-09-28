@@ -22,7 +22,7 @@
     "url": "https://github.com/al5dy/turgenev/issues"
   },
   "engines": {
-    "node": ">=20.19.0",
+    "node": ">=22.22.2",
     "npm": ">=10"
   },
   "targets": {
@@ -85,12 +85,12 @@
     "@parcel/transformer-sass": "^2.16.4",
     "@playwright/cli": "0.1.19",
     "@playwright/test": "1.63.0",
-    "@wordpress/env": "11.15.0",
-    "@wordpress/scripts": "35.0.0",
+    "@wordpress/env": "^11.16.0",
+    "@wordpress/scripts": "^36.0.0",
     "jsdom": "26.1.0",
     "parcel": "^2.16.4",
     "sass": "^1.104.1",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.3"
   },
   "scripts": {
     "clean": "rm -rf assets/*.js assets/*.css assets/images .parcel-cache",
@@ -110,5 +110,12 @@
     "lint:pkg-json": "wp-scripts lint-pkg-json",
     "check:licenses": "wp-scripts check-licenses",
     "test": "npm run typecheck && npm run check:syntax && npm run test:js"
+  },
+  "overrides": {
+    "qs": "6.16.0",
+    "serialize-javascript": "7.0.6",
+    "sockjs": {
+      "uuid": "11.1.1"
+    }
   }
 }
