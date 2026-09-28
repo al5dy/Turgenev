@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/al5dy/Turgenev/security/advisories/new
+    about: Report security vulnerabilities privately. Do not open a public issue.
+
+  - name: Turgenev service
+    url: https://turgenev.ashmanov.com/
+    about: Provider account, API key, billing and service-related questions.
