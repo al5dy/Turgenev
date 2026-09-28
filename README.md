@@ -1,5 +1,6 @@
 # Turgenev for WordPress
 
+[![CI](https://github.com/al5dy/Turgenev/actions/workflows/ci.yml/badge.svg)](https://github.com/al5dy/Turgenev/actions/workflows/ci.yml)
 [![WordPress](https://img.shields.io/badge/WordPress-6.6%2B-21759B?logo=wordpress&logoColor=white)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)](LICENSE)
