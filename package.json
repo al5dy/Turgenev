@@ -89,7 +89,7 @@
     "@wordpress/scripts": "^36.0.0",
     "jsdom": "26.1.0",
     "parcel": "^2.16.4",
-    "sass": "^1.104.1",
+    "sass": "^1.105.0",
     "typescript": "^6.0.3"
   },
   "scripts": {
