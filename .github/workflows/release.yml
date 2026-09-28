@@ -126,6 +126,6 @@ jobs:
           gh release create "$GITHUB_REF_NAME" \
             "dist/turgenev-${VERSION}.zip" \
             "dist/turgenev-${VERSION}.zip.sha256" \
-            --title "Turgenev ${VERSION}" \
+            --title "Turgenev for WordPress ${VERSION}" \
             --generate-notes \
             --verify-tag
