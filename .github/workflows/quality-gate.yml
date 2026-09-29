@@ -72,6 +72,9 @@ jobs:
       - name: Install npm dependencies
         run: npm ci --no-audit --no-fund
 
+      - name: Build runtime assets
+        run: npm run build
+
       - name: TypeScript typecheck
         run: npm run lint:js
 
@@ -86,9 +89,6 @@ jobs:
 
       - name: Validate package.json
         run: npm run lint:pkg-json
-
-      - name: Build runtime assets
-        run: npm run build
 
       - name: Upload runtime assets
         uses: actions/upload-artifact@v4
