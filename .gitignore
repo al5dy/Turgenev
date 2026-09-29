@@ -8,6 +8,7 @@
 /.parcel-cache/
 /.cache/
 /tmp/
+/assets/
 
 # Test caches / reports
 /.phpunit.result.cache

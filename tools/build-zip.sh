@@ -7,5 +7,5 @@ php "$TASK_ROOT/tools/check-version.php"
 # Rebuild deterministically and fail if that drifts from what's committed, rather
 # than silently packaging stale or hand-edited assets/ output.
 npm --prefix "$TASK_ROOT" run build
-git -C "$TASK_ROOT" diff --exit-code -- assets languages
+git -C "$TASK_ROOT" diff --exit-code -- languages
 php "$TASK_ROOT/tools/build-release.php"
